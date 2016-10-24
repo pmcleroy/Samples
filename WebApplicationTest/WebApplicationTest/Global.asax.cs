@@ -16,6 +16,7 @@ namespace WebApplicationTest
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //enter some notes
         }
     }
 }
