@@ -16,7 +16,7 @@ namespace WebApplicationTest
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             //added line here
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-
+            string test = string.Empty;
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             int integer = 0;
             
