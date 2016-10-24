@@ -15,7 +15,7 @@ namespace WebApplicationTest
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            //aaadddddddeeeeeddddd
+
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             
         }
