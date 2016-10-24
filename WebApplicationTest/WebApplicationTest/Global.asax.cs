@@ -18,6 +18,7 @@ namespace WebApplicationTest
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            int integer = 0;
             
         }
     }
