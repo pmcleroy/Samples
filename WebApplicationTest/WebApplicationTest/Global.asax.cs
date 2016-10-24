@@ -14,7 +14,6 @@ namespace WebApplicationTest
         {
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            //added line here
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             string test = string.Empty;
             BundleConfig.RegisterBundles(BundleTable.Bundles);
